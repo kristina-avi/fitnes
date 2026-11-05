@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Фитнес-клуб</title>
+</head>
+<body>
+    <h2>Регистрация клиента фитнес-клуба</h2>
+    <form id="registerForm">
+        <input type="text" placeholder="Логин" id="regEmail" required>
+        <input type="password" placeholder="password" id="regPassword" required>
+        <button type="submit">Зарегистрироваться</button>
+    </form>
+    <h2>Авторизация клиента фитнес-клуба</h2>
+    <form id="loginForm">
+        <input type="text" placeholder="Логин" id="loginEmail" required>
+        <input type="password" placeholder="password" id="loginPassword" required>
+        <button type="submit">Авторизация</button>
+    </form>
+    <h2>Записать клиента фитнес-клуба</h2>
+    <form id="memberForm">
+        <input type="text" placeholder="Введите имя" id="name" required>
+        <input type="text" placeholder="Тренер" id="trainer">
+        <button type="submit">Записаться</button>
+    </form>
+
+    <div>
+        <button id="loadMembersBtn">Загрузить клиентов</button>
+        <button id="logoutBtn">Выйти</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
